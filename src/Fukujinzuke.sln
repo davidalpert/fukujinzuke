@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fukujinzuke", "Fukujinzuke\Fukujinzuke.fsproj", "{BD1C994D-3A5E-4AD5-9CEB-B7B3833577F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fukujinzuke.Tests", "Fukujinzuke.Tests\Fukujinzuke.Tests.csproj", "{E272544F-5AB4-41E5-A06E-EADD40CA508D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SemanticReleaseNotes", "..\..\semantic-release-notes.git\src\SemanticReleaseNotes\SemanticReleaseNotes.fsproj", "{E8D4FB83-FB86-416B-B2D4-8ED4E5E360E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD1C994D-3A5E-4AD5-9CEB-B7B3833577F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1C994D-3A5E-4AD5-9CEB-B7B3833577F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1C994D-3A5E-4AD5-9CEB-B7B3833577F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1C994D-3A5E-4AD5-9CEB-B7B3833577F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E272544F-5AB4-41E5-A06E-EADD40CA508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E272544F-5AB4-41E5-A06E-EADD40CA508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E272544F-5AB4-41E5-A06E-EADD40CA508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E272544F-5AB4-41E5-A06E-EADD40CA508D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D4FB83-FB86-416B-B2D4-8ED4E5E360E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D4FB83-FB86-416B-B2D4-8ED4E5E360E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D4FB83-FB86-416B-B2D4-8ED4E5E360E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D4FB83-FB86-416B-B2D4-8ED4E5E360E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
